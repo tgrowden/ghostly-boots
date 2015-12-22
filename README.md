@@ -1,5 +1,7 @@
 # Ghostly-boots
-A simple, customisable [Ghost](https://ghost.org/) theme based on [Bootstrap] (http://getbootstrap.com/).
+A fork of [Ghostly-boots](https://github.com/charanpald/ghostly-boots), a great [Ghost](https://ghost.org/) theme based on [Bootstrap] (http://getbootstrap.com/).
+
+This fork includes bootstrap source, so it is compilable.
 
 ## Features
 

@@ -1,21 +1,12 @@
-<nav class="navbar navbar-default blog-navbar">
-   <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-         </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-         <ul class="nav navbar-nav">
+<nav class="navbar bg-info blog-header-gradient navbar-fixed-top">
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
+          &#9776;
+        </button>
+        <div class="collapse navbar-toggleable-xs" id="navbar-header">
+          <ul class="nav navbar-nav bg-danger">
             {{#foreach navigation}}
-               <li class="{{#if current}}active{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+               <li class="{{#if current}}active{{/if}} nav-item"><a href="{{url absolute="true"}}">{{label}}</a></li>
             {{/foreach}}
-         </ul>
-      </div>
-   </div>
-</nav>
+          </ul>
+        </div>
+      </nav> <!-- /navbar -->
